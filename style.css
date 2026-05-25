@@ -1,0 +1,158 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.backframe {
+  height: 100vh;
+  background-image: url(./background.png);
+  position: absolute;
+}
+
+nav {
+  height: 10vh;
+  width: 100vw;
+  display: flex;
+  align-items: center;
+  background-color: transparent;
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+}
+
+.logo {
+  margin-left: 4.8rem;
+}
+
+.nav_link {
+  margin-right: 7rem;
+}
+
+.dropdown_wrap {
+  position: relative;
+  display: inline-block;
+}
+
+img {
+  height: 6.4vw;
+}
+
+.dropdown {
+  background-color: transparent;
+  color: white;
+  height: 1.4rem;
+  width: 7.2vw;
+  padding: 0 1.4rem 0 1.4rem;
+  border-radius: 0.2rem;
+  appearance: none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  font-size: 0.65rem;
+}
+
+.dropdown_icon {
+  position: absolute;
+  left: 0.25rem;
+  top: 50%;
+  transform: translateY(-50%);
+  height: 0.8rem;
+  width: 0.8rem;
+  margin-left: 0;
+  pointer-events: none;
+  padding-left: 0.2rem;
+}
+
+i {
+  position: absolute;
+  right: 0.35rem;
+  top: 45%;
+  transform: translateY(-50%);
+  color: white;
+  font-size: 0.4rem;
+  pointer-events: none;
+  padding-right: 0.2rem;
+}
+
+svg {
+  height: 1.2rem;
+  width: 1.2rem;
+  margin-left: 4.8rem;
+}
+
+.sign_in {
+  background-color: #f40612e9;
+  color: white;
+  height: 1.5rem;
+  width: 3.2rem;
+  border-radius: 0.2rem;
+  font-size: 0.59rem;
+  font-weight: 700;
+  border: none;
+  margin-left: 0.24rem;
+}
+
+.main {
+  display: flex;
+  flex-direction: column;
+  color: white;
+  align-items: center;
+  position: absolute;
+  top: 50%;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  margin: auto;
+  transform: translateY(-50%);
+}
+
+pre {
+  font-size: 2.1rem;
+  font-weight: 700;
+  font-family: "Arial Black", Arial, sans-serif;
+}
+
+p {
+  font-size: 0.87rem;
+  font-weight: 700;
+  margin-top: 0.4rem;
+  font-family: "Arial", sans-serif;
+}
+
+.caption {
+  font-size: 0.65rem;
+  font-weight: 200;
+}
+
+.input {
+  margin-top: 0.4rem;
+}
+
+input[type="email"] {
+  padding: 0.8rem;
+  width: 20vw;
+  border-radius: 0.2rem;
+  border: 1px solid grey;
+  background: transparent;
+  font-size: 0.65rem;
+}
+
+input[type="email"]::placeholder {
+  color: rgba(255, 255, 255, 0.764);
+}
+
+.get_started {
+  background-color: #f40612e9;
+  color: white;
+  height: 2.5rem;
+  width: 9.5vw;
+  border-radius: 0.2rem;
+  font-size: 0.85rem;
+  font-weight: 700;
+  border: none;
+}
+
+.get_started:hover,
+.sign_in:hover {
+  background-color: #ff000dce;
+  cursor: pointer;
+}
